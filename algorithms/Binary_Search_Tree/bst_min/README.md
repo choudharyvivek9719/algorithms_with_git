@@ -1,4 +1,5 @@
 # Finding minimum in a Binary_Search_Tree
+# i eat potty
 
 Binary Search Tree as the name suggests is a tree data structure that is used to maintain the data in a sorted order.
 Binary here refers to the fact that each node has maximum two children,also taking into consideration that the left child is always smaller
