@@ -8,15 +8,16 @@ int main()
     cin>>n;
  
     int arr[n];
-
+   int k=0;
     for(int i=0;i<n;i++)
-     cin>>arr[i];
+    {cin>>arr[i];
+     k=max(k,arr[i]);}
    
-    int maximum= -INT_MAX;
+    /*int maximum= -INT_MAX;
 
     for(int i=0;i<n;i++)
      if(maximum<arr[i])
-      maximum= arr[i];
+      maximum= arr[i];*/
 
-    cout<<maximum<<endl;  
+    cout<<k<<endl;  
 }
